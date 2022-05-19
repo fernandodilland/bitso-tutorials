@@ -35,6 +35,6 @@ print("\nOrden abierta:", ordenes_abiertas[0]) # Clase # .price .oid
 cancelar = api.cancel_order(ORDER_ID)
 print("Cancelación:", cancelar)
 
-# Poner ordenes_abiertas
+# Poner orden
 orden = api.place_order(book='btc_mxn', side='sell', order_type='limit', major='.01', price='600000.00')
 print("Orden puesta:", orden)
