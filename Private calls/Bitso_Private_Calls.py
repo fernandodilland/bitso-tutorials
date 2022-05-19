@@ -1,5 +1,5 @@
 import bitso
-api = bitso.Api('IYLlVdsLNi', 'a67629d459176b4048f934e9a6323c0e')
+api = bitso.Api('API_KEY', 'API_SECRET')
 
 # Estado de la cuenta
 estado = api.account_status() # Clase
